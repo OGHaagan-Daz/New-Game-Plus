@@ -1,0 +1,48 @@
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="C:\Users\marie denna\Desktop\HTML\Project 1\css\style.css">
+  <title>Unheard Central</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="C:\Users\marie denna\Desktop\HTML\Project 1\Images\favicon.ico">
+ </head>
+ <body>
+  <div class="title">
+   <h3>Welcome to Unheard Central!</h3>
+   <h4>This is the center of the Unheard | Group. I know, pretty cliche name, but it's deeply rooted within us.</h4>
+   <p> 
+		Prime Delevoper is your's truely, Haagan Daz. 
+		Carefully built by hand, this website serves as starting and end point for all the various things that we as a group do.
+   </p>
+  </div>
+<br>
+  <div class="nav">
+   <ul>
+    <li><a class="active" href="default.asp">Home</a></li>
+    <li><a href="news.asp">News</a></li>
+    <li><a href="contact.asp">Contact</a></li>
+    <li><a href="about.asp">About</a></li>
+  </ul>
+ </div>
+  <div class="content">
+   <p>	
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+	Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+	Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+   </p>
+
+  </div>
+  <div class="foot">
+   <foot>
+    <address>
+     Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br> 
+     Visit us at:<br>
+     Example.com<br>
+     Box 564, Disneyland<br>
+     USA
+    </address>
+   </footer>
+  </div>
+ </body>
+</html>
