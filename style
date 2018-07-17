@@ -1,0 +1,76 @@
+body {
+	background: rgb(33,47,139);
+	background: linear-gradient(90deg, rgba(33,47,139,1) 0%, rgba(102,96,96,1) 25%, rgba(102,96,96,1) 75%, rgba(33,47,139,1) 100%);
+    text-shadow: 2px 1px grey;
+	font-family: "Times New Roman", Times, serif;
+}
+ /*These are global settings, they appy to any page linking here*/
+.title {
+    width: 62.5%;
+    border: 25px inset darkblue;
+    padding: 25px;
+	margin: auto;
+	background-color: #737373;
+}
+ /*This controls any text within a div tag with a class of "title"*/
+.nav {
+    width: 62.5%;
+    border: 12.5px inset darkblue;
+    padding: 25px;
+	margin: auto;
+	background-color: #737373;
+}
+ /*This controls any text within a div tag with a class of "nav"*/
+ .foot {
+    width: 62.5%;
+    border: 12.5px inset darkblue;
+    padding: 25px;
+	margin: auto;
+	background-color: #737373;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #404040;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #004080;
+}
+ /*This stylizes the navbar links*/
+ 
+.content {
+    width: 62.5%;
+    border: 12.5px outset darkblue;
+    padding: 25px;
+	margin: auto;
+	background-color: #737373;
+	text-align: justify;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+	column-rule: 5px solid #003366;
+ /*This controls any text within a div tag with a class of "content"*/
+  /*This forms the dual columns that are the content section*/
